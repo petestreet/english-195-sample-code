@@ -23,8 +23,9 @@ print("\n\nThis program will try to do a few things, but it may need your help. 
 # variable is implied when the program is run.  Notice that we never defined "your_name" to be a string, but since 
 # it was set equal to input that the user typed in line 4, the program implies that the data stored inside 
 # "your_name" is of type "string".  
+
 # Whew!  Now that that's out of the way, we can understand what's going on when we find the number of letters in our
-# user's name.  You'll see that "your_name" is wrapped inside two different functions.  "len" and "str" are 
+# user's name.  You'll see that "your_name" is wrapped inside two different functions.  "len" and "str" are
 # built-in functions just like "print" is.  "len" finds the length of a string and returns an integer value.  "str"
 # converts an integer value into a string value.  The functions are executed from the inside out, so we first get the
 # length of "your_name" and then convert that number back into a string in order to be printed with the "print"
@@ -35,12 +36,12 @@ print( "1) Your name is " + str(len(your_name)) + " letters long." )
 
 
 
-# What's with this funky "\n" character that pops up all over?  Don't pay it much attention, all it does is 
+# What's with this funky "\n" character that pops up all over?  Don't pay it much attention, all it does is
 # denote a carriage return inside a string.  They have been added for readability's sake.
 print( "\n2) Let's find out how many days old you are." )
 
 # Here we're defining another variable, "your_age", in the same way that we defined "your_name" above.
-# "raw_input" is a built-in python function that collects a line of text that the user types in on the command 
+# "raw_input" is a built-in python function that collects a line of text that the user types in on the command
 # line below.
 your_age = raw_input( "How many years old are you? " )
 
@@ -49,10 +50,11 @@ your_age = raw_input( "How many years old are you? " )
 # printed 365 times in a row.  Not good!  Consider what we did above, when printing out the length of the user's
 # name.  We saw that "str" and "len" were built-in functions that Python provides us to make working with variables
 # of different types easier.  There's another built-in function - *nudge* *nudge* - called "int" (which is short
-# for "integer") that might come in handy here. 
-print( "You are approximately " + your_age * 365 + " days old." )
-# Can you make that number any more precise? Think about how long it's been since your last birthday, leap 
+# for "integer") that might come in handy here.
+
+# Can you make that number any more precise? Think about how long it's been since your last birthday, leap
 # years, et cetera.
+print( "You are approximately " + your_age * 365 + " days old." )
 
 
 

@@ -11,8 +11,6 @@ print( "1) Your name is " + str(len(your_name)) + " letters long.")
 print( "\n2) Let's find out how many days old you are." )
 your_age = raw_input( "How many years old are you? " )
 print( "You are approximately " + your_age * 365 + " days old." )
-# Can you make that number any more precise? Think about how long it's been since your last birthday, leap 
-# years, et cetera.
 
 
 print( "\n3) Print out the numbers 1-10:" )

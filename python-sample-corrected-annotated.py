@@ -22,7 +22,8 @@ print("\n\nThis program will try to do a few things, but it may need your help. 
 # typing" - if it looks like a duck and quacks like a duck, then it's a duck), which means that the type of a 
 # variable is implied when the program is run.  Notice that we never defined "your_name" to be a string, but since 
 # it was set equal to input that the user typed in line 4, the program implies that the data stored inside 
-# "your_name" is of type "string".  
+# "your_name" is of type "string".
+
 # Whew!  Now that that's out of the way, we can understand what's going on when we find the number of letters in our
 # user's name.  You'll see that "your_name" is wrapped inside two different functions.  "len" and "str" are 
 # built-in functions just like "print" is.  "len" finds the length of a string and returns an integer value.  "str"
@@ -51,10 +52,11 @@ your_age = raw_input( "How many years old are you? " )
 # in a number for "your_age", the "raw_input" function interperets any typed input as a string.  Thus if enter "21"
 # for this prompt, your_age would be equal to "21" the string of characters, not 21 the number.  In the corrected
 # code below, the "int" funciton first converts "your_age" into an integer, and that integer is then multiplied 
-# by 365.  Then the result of that calculation is convertet back into a string with "str".  
-print( "You are approximately " + str(int(your_age) * 365) + " days old." )
-# Can you make that number any more precise? Think about how long it's been since your last birthday, leap 
+# by 365.  Then the result of that calculation is convertet back into a string with "str".
+
+# Can you make that number any more precise? Think about how long it's been since your last birthday, leap
 # years, et cetera.
+print( "You are approximately " + str(int(your_age) * 365) + " days old." )
 
 
 
